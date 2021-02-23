@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>Spring-box API</name>
     <artifactId>spring-box-api</artifactId>
 
@@ -23,7 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>tech.bongers</groupId>
-            <artifactId>spring-box</artifactId>
+            <artifactId>spring-box-domain</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
