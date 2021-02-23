@@ -1,2 +1,2 @@
-# foxcom
-Spring boot e-commerce
+# spring-box
+Spring boot sandbox project

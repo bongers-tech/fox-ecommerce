@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>fox-ecommerce</artifactId>
+        <artifactId>spring-box</artifactId>
         <groupId>tech.bongers</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <name>Fox e-commerce core</name>
-    <artifactId>fox-core</artifactId>
+    <name>Spring-box domain</name>
+    <artifactId>spring-box-domain</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

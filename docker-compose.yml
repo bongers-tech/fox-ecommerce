@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  fox-api:
-    build: ./
-    container_name: fox-ecommerce-api
-    ports:
-      - "9090:9090"

@@ -1,4 +1,4 @@
-package tech.bongers.api.resource;
+package tech.bongers.view.resource;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +11,6 @@ public class EchoResource {
 
     @GetMapping
     public ResponseEntity<String> echoHello() {
-        return ResponseEntity.ok("Hello");
+        return ResponseEntity.ok("Hello view");
     }
 }
